@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 113px;
+    margin-left: 8px;
+}
+
+.logo-container {
+    background-image: url("./Assest/logo1.png");
+    background-size: cover;
+    background-position: center;
+    height: 35px;
+    margin-top: 13px;
+    margin-left: 15px;
+}
+  
+.border{
+    padding: 0.3px 5px;
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    padding: 0.3px 5px;
+    border: 1.5px solid white;
+}
+
+.nav-loca-first{
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 16px;
+}
+
+.nav-loca-second{
+    color: white;
+    margin-left: 3px;
+}
+
+.loc-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-location{
+    margin-left: 15px;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1250px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+    .nav-search:hover{
+    border: 3px solid #f3a847;
+    background-color: #f3a847;
+    border-radius: 8px;
+} 
+
+#search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+}
+
+#search-box{
+    width: 100%;
+    font-size: 1rem;
+    padding-left: 10px;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3a847;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 1.5rem;
+    color: #0F1111;
+}
+
+.lan-flag {
+    width: 22px;
+  } 
+  
+#lan-opt{
+    background-color: #0F1111;
+    color: white;
+    border: none;
+}
+
+#lan-opt option[value="1"]{
+    font-weight: bold;
+}
+
+.nav-signin-first{
+    font-size: 0.7rem;
+}
+
+.nav-signin-second{
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.sig-opt{
+    margin-left: -5px;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
