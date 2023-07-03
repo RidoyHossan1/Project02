@@ -35,12 +35,12 @@
 
 .border {
   padding: 0.3px 5px;
-  border: 1.5px solid transparent;
+  border: 1.5px solid transparent !important;
 }
 
 .border:hover {
   padding: 0.3px 5px;
-  border: 1.5px solid white;
+  border: 1.5px solid white !important;
 }
 
 .nav-loca-first {
@@ -70,13 +70,13 @@
   justify-content: space-evenly;
   width: 1250px;
   height: 40px;
-  border-radius: 8px;
+  border-radius: 8px !important;
 }
 
 .nav-search:hover {
   border: 3px solid #f3a847;
   background-color: #f3a847;
-  border-radius: 8px;
+  border-radius: 8px !important;
 }
 
 #search-select {
@@ -247,6 +247,8 @@
   color: #007185;
 }
 
+/* Middle Box */
+
 .box-big {
   border: none solid black;
   height: 443px;
@@ -261,8 +263,7 @@
   height: 371px;
   width: 300px;
   background-color: white;
-  padding: 20px 0px 15px;
-  margin-top: 1rem;
+  padding: 7px 0px 15px;
 }
 
 .box-img-small {
@@ -274,10 +275,14 @@
   background-repeat: no-repeat;
 }
 
+.img-box {
+  background-color: #f7f8f8;
+}
+
 .hero-shop-midbar {
   height: 16px;
   width: 44px;
-  background-color: #CC0C39;
+  background-color: #cc0c39;
   border-radius: 2px;
   padding: 4px 6px;
   margin-left: 6px;
@@ -285,12 +290,12 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 14px;
-    margin-right: 6px;
-    padding: 4px 6px;
-    position: relative;
+  margin-right: 6px;
+  padding: 4px 6px;
+  position: relative;
 }
 
-.shop-dollar{
+.shop-dollar {
   position: relative;
   top: 0.2em;
   font-size: 12px;
@@ -301,9 +306,10 @@
   width: auto;
 }
 
-.price-old{
+.price-old {
   font-size: 12px;
   line-height: 28px;
   color: #565959;
 }
+
 
