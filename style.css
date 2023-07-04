@@ -190,7 +190,7 @@
   background-color: #e3e6e6;
   height: 1920px;
   width: auto;
-  display: flex; 
+  display: flex;
 }
 
 .hero-section {
@@ -205,7 +205,26 @@
   align-items: center;
   flex-wrap: wrap;
   margin-left: 12.74rem;
-  margin-right: 12.4rem; 
+  margin-right: 12.4rem;
+  animation: hero_image 10s steps(1) 0s infinite normal;
+}
+
+@keyframes hero_image {
+  0% {
+    background-image: url(./Assest/hero_box_1.jpg);
+  }
+  25% {
+    background-image: url(./Assest/hero_box_2.jpg);
+  }
+  50% {
+    background-image: url(./Assest/hero_box_3.jpg);
+  }
+  75% {
+    background-image: url(./Assest/hero_box_4.jpg);
+  }
+  100% {
+    background-image: url(./Assest/hero_box_5.jpg);
+  }
 }
 
 /* shop section */
